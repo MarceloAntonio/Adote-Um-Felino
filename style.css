@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  background-color: #fec7d7;
+  color: #0e172c;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+buttom {
+  background-color: #0e172c;
+  color: #fffffe;
+}
+
+.structure {
+  width: 100vh;
+  height: 189vh;
+  padding: 10px;
+  display: flex;
+  gap: 100px;
+}
+
+.ilustracao {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  right: 5%;
+  height: 500px;
+  width: 500px;
+  animation: fadein 2s;
+}
+
+.lefttext {
+  display: flex;
+  flex-direction: column;
+}
+
+.lefttext p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: larger;
+  max-width: 700px;
+}
+
+.adocao {
+  position: absolute;
+  bottom: 4%;
+  right: 38%;
+  display: flex;
+  z-index: 1;
+}
+
+.adocao img {
+  width: 60px;
+}
+
+.catstructure {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: -100%;
+}
+
+.catsfoto1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.catsfoto2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.catsfoto3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  margin-right: 0;
+}
+
+.catpicture {
+  display: flex;
+  padding: 10px;
+  width: 450px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: #f9f8fc;
+  border: solid 2px #0e172c;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  align-items: center;
+  animation: fadein 8s forwards;
+}
+.catpicture img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  box-shadow: 0px 9px 30px #fec7d7;
+  display: flex;
+}
+
+.catpicture p {
+  margin-left: 100px;
+  line-height: 2;
+  background-color: #fec7d7;
+  border: #0e172c 2px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.catpicture:hover {
+  transform: scale(1.02);
+}
+
+.wave {
+  position: absolute;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  z-index: 2;
+  right: 43%;
+  bottom: -133%;
+  width: 200px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: #a786df;
+  transition: 1000ms;
+}
+
+footer a:hover {
+  background: linear-gradient(90deg, #fec7d7 0%, #a786df 100%);
+
+  color: #0e172c;
+  font-size: large;
+  border-radius: 4px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
