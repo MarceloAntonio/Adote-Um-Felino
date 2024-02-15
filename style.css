@@ -158,3 +158,61 @@ footer a:hover {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .structure {
+    width: 50vw;
+  }
+
+  .lefttext {
+    display: inline;
+    align-items: top;
+  }
+
+  .lefttext img {
+    width: 40%;
+    height: auto;
+  }
+
+  .catstructure {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 40%;
+  }
+
+  .catpicture {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  .catpicture p {
+    margin-left: 10px;
+  }
+
+  .lefttext p {
+    display: none;
+  }
+
+  .wave {
+    display: none;
+  }
+
+  .catsfoto1 {
+    display: non;
+  }
+
+  .catsfoto3 {
+    display: non;
+    margin-right: 20px;
+  }
+
+  .adocao {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
